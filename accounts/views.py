@@ -136,7 +136,7 @@ class UserRegistrationApiView(APIView):
             print(token)
             uid = urlsafe_base64_encode(force_bytes(user.pk)) # unique url make kora
             print("UID: ",uid)
-            confirm_link = f"https://blood-project.onrender.com/accounts/active/{uid}/{token}"
+            confirm_link = f"https://blood-project-1das.vercel.app/accounts/active/{uid}/{token}/"
         
             email_subject = "Confirm Your Email! "
             email_body = render_to_string('confirm_email.html',{'confirm_link':confirm_link})
