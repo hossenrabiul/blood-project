@@ -1,1 +1,4 @@
 pass -   1zku9jLIUvjrLlga
+
+
+payment gateway documentatioin --  https://github.com/Rafiul29/tasty-trails-server/blob/master/payment/views.py

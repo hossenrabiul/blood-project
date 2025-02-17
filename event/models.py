@@ -25,5 +25,5 @@ class Event(models.Model):
     def clean(self):
         # Ensure user and doner are not the same
         if self.user and self.doner and self.user == self.doner:
-            raise ValidationError("The user and doner cannot be the same person.")
+            raise ValidationError("The user and doner cannot be the same person")
  
