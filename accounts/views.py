@@ -154,7 +154,7 @@ class UserRegistrationApiView(APIView):
     
 
 def activate(request,uid64,token):
-    print("hello word")
+    print("helloo word")
 
     try:
         uid = urlsafe_base64_decode(uid64).decode()
